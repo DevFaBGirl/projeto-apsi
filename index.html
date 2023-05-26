@@ -26,18 +26,13 @@
             <form action="redirecionamento.html" method="post">
                 <div> <label for="nome">Nome Completo:</label>
                   <input type="text" class="input" name="nome" id="nome" required>
-
                   <div> <label for="apelido">Apelido:</label>
                     <input type="text" class="input" name="apelido" id="apelido" required>
-
                   <div>
                     <label for="data"> Data de nascimento:</label>
                     <input type="date" class="input" name="data" id="data" required>
-
                 </div>
-
                 </div>
-
                 <div> <label for="telefone">Telefone (DDD):</label>
                     <input type="text" class="input" name="telefone" id="telefone" maxlength="15px" required>
                 </div>
@@ -47,7 +42,6 @@
 
                 </div>
                 <br>
-
                 <div>
                     <p> Arte-atleta:</p>
                     <label for="B-girl">B-girl</label>
@@ -59,8 +53,6 @@
                     <label for="Breaker"> Breaker </label>
                     <input type="radio" name="sexo" id="Breaker" value="Breaker">
                 </div>
-
-
                 <div>
                     <p> Categorias que deseja se inscrever:</p>
                     <label for=""> B-girling</label>
@@ -76,18 +68,12 @@
                     <input type="checkbox" name="categorias" id="3vs3" value="">
                 </div>
                 <br>
-
-
                 <div>
                    <input type="Submit" value="Inscrever" id="submeter">
 
                 </div>
-
-
-
         </form>
         </fieldset>
-
     </div> -->
 
     <div class="container">
@@ -97,25 +83,33 @@
               <label for="inputNome" class="form-label">Nome completo:</label>
               <input type="text" class="form-control" id="inputNome">
             </div>
+
             <div class="col-md-6">
               <label for="inputApelido" class="form-label">Apelido:</label>
               <input type="text" class="form-control" id="inputApelido">
             </div>
+
             <div class="col-12">
               <label for="inputDate" class="form-label">Data de nascimento:</label>
               <input type="date" class="form-control" id="inputDate" placeholder="dd/mm/aaaa">
             </div>
+
             <div class="col-12">
               <label for="inputAddress2" class="form-label">Telefone:</label>
               <input type="text" class="form-control" id="inputTelefone" placeholder="(00) 00000-0000">
             </div>
+
             <div class="col-md-6">
               <label for="inputCity" class="form-label">Cidade</label>
               <input type="text" class="form-control" id="inputCity">
             </div>
+
             <div class="col-md-4">
               <label for="inputState" class="form-label">Estado</label>
+
               <select id="inputState" class="form-select">
+
+
                 <option selected>opções...</option>
                 <option value="AC">Acre</option>
                 <option value="AL">Alagoas</option>
@@ -151,15 +145,12 @@
               <label for="inputZip" class="form-label">CEP</label>
               <input type="text" class="form-control" id="inputZip">
             </div>
-
             <div class="col-12">
-                <div class="form-check form-switch">
-                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
-                    <label class="form-check-label" for="flexSwitchCheckChecked">Manter conectado?</label>
-                  </div>
-            </div>
-
-
+              <div class="form-check form-switch">
+                  <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+                  <label class="form-check-label" for="flexSwitchCheckChecked">Manter conectado?</label>
+                </div>
+          </div>
             <div class="col text-center">
               <button type="submit" class="btn btn-secondary">Inscrever</button>
             </div>
@@ -167,8 +158,7 @@
           </form>
     </div>
 </section>
-<div >
-
+<div>
     <footer class="footer">
         &copy; Tríade Soluções Criativas
     </footer>
@@ -180,7 +170,6 @@
     $( "#inputDate" ).keypress(function() {
         $(this).mask('00/00/0000');
     });
-
 </script>
 </body>
 
